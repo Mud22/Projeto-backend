@@ -73,36 +73,6 @@ Grupo muscular que gostaria de dar ênfase:  página 4
 *musculatura específica ( especificar ) 
  
  
-qual o seu nivel de treino // Pagina 5 
- 
-*iniciante 
-*intermediario 
-*avançado 
-*Hulk 
- 
- 
-onde você costuma treinar // Página 6 
- 
-*ar livre 
-*academia   
- 
- 
-exercicios aeróbicos // Página 6 
- 
-*ar livre 
-*academia 
- 
- 
- 
-definição de horário de treino // Página 7 
-*Sim?  
-*Não 
- 
-se sim, deseja ser notificado? 
- 
- 
- 
- 
  
  
 Deseja acompanhamento nutricional? Página 8  
@@ -191,41 +161,29 @@ Fluxo secundário:
 
   
 
+perfil do usuário::
 
-consulta do usuário:: 
+fluxo principal
+    1.O  usuário vai ter a opção de consultar a ficha de treinamento
+    2. O  usuário  vai ter como acompanhar suas estatísticas de treino 
+    3. O usuário vai poder acompanhar  sua evolução
 
-  
-
-fluxo principal 
-
-    1.O usuário vai ter a opção consulta a ficha de treinamento 
-
-    2. O usuário   
+ 
 
 
-efetuar o pagamento 
+login do usuário:
 
-  
+fluxo principal
 
-Fluxo principal:  
+     1.permite que usuário acesse a autenticação  de suas credenciais do email do
+     usuário e senha  adquiridos através de um cadastro  do usuário 
 
- 1. O usuário seleciona a opção efetuar pagamento 
+ fluxo secundário
+ 
+      1.   senha e nome do usuario valido o sistema verifica e manda informações para outra tela
+      2.  senha e nome do usuario Invalido o sistema verifica que não tem nenhum registro
+         do nome do usuário e da senha cadastrada.
 
- 2. O sistema mostra o preço da compra contabilizado e a opção de emissão de 
-
-     nota fiscal 
-
-  
-
-Fluxo secundário: 
-
- 3. pagamento Inválido. 
-
-      sistema verifica que não tem nenhum pagamento 
-
-      registrado fornecido pelo usuário e 
-
-     procede da seguinte maneira: 
 
  4. Informa que algum código não está cadastrado no sistema. 
 
