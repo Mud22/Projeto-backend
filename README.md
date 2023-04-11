@@ -28,13 +28,7 @@ cadastro da ficha de treinamento. O cadastro de usuário é extremamente importa
 
 todas as outras funções do software, pois o usuário é a principal entidade do projeto. 
 
-A função de efetuar pagamentos pelo aplicativo de gerar boletos  
 
-controle financeiro do programa, pois este software irá controlar os débitos ou 
-
-créditos dos clientes para emissão de relatórios e cobranças. A função de cadastro 
-
-do usuário é para controlar quem é o aluno da academia, além disso o app fara relatórios de acompanhamento de treinos, onde o cliente terá que seguir a ordem do que for gerado. 
 
   
 
